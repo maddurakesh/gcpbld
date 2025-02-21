@@ -11,3 +11,7 @@ steps:
   - '-c'
   - echo "This is middle step"
 
+options:
+  logging: CLOUD_LOGGING_ONLY
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
+
