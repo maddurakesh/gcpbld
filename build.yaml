@@ -6,8 +6,8 @@ steps:
     - echo "This is initial step"
 
 - id: 'middle'
-entrypoint: 'sh'
-args:
+  entrypoint: 'sh'
+  args:
   - 'c'
   - echo "This is middle step"
 
