@@ -2,10 +2,12 @@ steps:
 - id: 'Initial'
   entrypoint: 'sh'
   args:
-     echo "This is initial step"
+    - 'c'
+    - echo "This is initial step"
 
 - id: 'middle'
 entrypoint: 'sh'
 args:
-   echo "This is middle step"
+  - 'c'
+  - echo "This is middle step"
 
