@@ -1,15 +1,11 @@
 steps:
 - id: 'Initial'
+  name: 'initial step' 
   entrypoint: 'sh'
   args:
     - '-c'
     - echo "This is initial step"
 
-- id: 'middle'
-  entrypoint: 'sh'
-  args:
-  - '-c'
-  - echo "This is middle step"
 
 options:
   logging: CLOUD_LOGGING_ONLY
